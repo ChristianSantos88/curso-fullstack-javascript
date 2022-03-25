@@ -1,0 +1,28 @@
+/*
+Estrutura básica do CSS
+
+seletor {
+    propriedade: valor;
+}
+
+*/
+
+body {
+    background: rgb(170, 170, 170);
+}
+
+p {
+    color: rgb(26, 25, 25);
+}
+
+.foto {
+    /*
+    border-width: 5px;
+    border-style: dashed;
+    border-color: green;
+    */
+    border: 2px solid #fff; /* shorthand */
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}

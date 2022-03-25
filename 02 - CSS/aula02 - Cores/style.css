@@ -1,0 +1,16 @@
+/*
+Estrutura básica do CSS
+
+seletor {
+    propriedade: valor;
+}
+
+*/
+
+body {
+    background: rgb(241, 241, 241);
+}
+
+p {
+    color: rgb(26, 25, 25);
+}

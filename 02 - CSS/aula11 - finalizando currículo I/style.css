@@ -1,0 +1,80 @@
+/*
+Estrutura básica do CSS
+
+seletor {
+    propriedade: valor;
+}
+
+*/
+
+body {
+    background: rgb(212, 212, 212);
+    color: rgb(26, 25, 25);
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 10px;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 3.5em;
+}
+
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(73, 73, 73);
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+p {
+    line-height: 25px;
+}
+
+.foto {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+    /*
+    border-width: 5px;
+    border-style: dashed;
+    border-color: green;
+    */
+    border: 2px solid #fff; /* shorthand */
+    
+
+    /*
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+    */
+    /* margin: 30px 15px 20px 500px; */ /* shorthand */
+    margin: 30px 30px 0;
+    box-shadow: 0px 0px 10px rgb(68, 65, 65);
+}
+
+.social-links {
+    text-decoration: none;
+}
+
+.social-icons {
+    width: 20px;
+}
+
+.github {
+    margin: 0 15px;
+}

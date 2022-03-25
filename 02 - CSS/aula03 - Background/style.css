@@ -1,0 +1,23 @@
+/*
+Estrutura básica do CSS
+
+seletor {
+    propriedade: valor;
+}
+
+*/
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    /* 
+    background-position: 100% 10%; (esq topo)
+    */
+    background-position: center center;
+    background-size: cover; /* faz com que a imagem se expanda em todo o fundo, sem contudo repetir */
+    background-attachment: fixed; /* Fundo fica fixo */
+}
+
+p {
+    color: rgb(26, 25, 25);
+}

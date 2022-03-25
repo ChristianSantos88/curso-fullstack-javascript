@@ -1,0 +1,24 @@
+/*
+Estrutura básica do CSS
+
+seletor {
+    propriedade: valor;
+}
+
+*/
+
+body {
+    background: red;
+}
+
+h3 {
+    color: blue;
+}
+
+.foto {
+    width: 500px;
+}
+
+#titulo-principal {
+    color: yellow;
+}
